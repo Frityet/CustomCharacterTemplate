@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "file:///toc.schema.json": "/toc\\.yml/i",
+        "https://raw.githubusercontent.com/devyndamonster/TakeAndHoldTweaker/master/Schemas/CustomCharacterSchema.json": "**/character.*",
+        "https://raw.githubusercontent.com/devyndamonster/TakeAndHoldTweaker/master/Schemas/SosigTemplate.json": "*sosig*",
+        "https://json.schemastore.org/github-workflow.json": ".github/workflows/build.yaml"
+    },
+  }

@@ -1,0 +1,5037 @@
+#Replace values for your own
+DisplayName: AUTOMATICALLY ADDED!
+Description: AUTOMATICALLY ADDED!
+CharacterGroup: 0
+TableID: AllRounderRandyJr
+StartingTokens: 3
+ForceAllAgentWeapons: false
+ForceDisableOutfitFunctionality: false
+UsesPurchasePriceIncrement: false
+HasPrimaryWeapon: true
+HasSecondaryWeapon: false
+HasTertiaryWeapon: false
+HasPrimaryItem: true
+HasSecondaryItem: true
+HasTertiaryItem: false
+HasShield: false
+DisableCleanupSosigDrops: false
+ValidAmmoEras:
+  - Colonial
+  - WildWest
+  - TurnOfTheCentury
+  - WW1
+  - WW2
+  - PostWar
+  - Modern
+  - Futuristic
+  - Medieval
+ValidAmmoSets:
+  - Real
+  - GroundedFictional
+  - SciFiFictional
+  - TNH
+GlobalAmmoBlacklist:
+  - 22WMCartridgeSP
+  - 22WMCartridgeTracer
+
+  # Fuck you, Andrew.
+  - FTW.50BMGFAKE.SLAP
+
+MagazineBlacklist:
+  # REVOLVERS
+  - FirearmID: RS15
+    MagazineBlacklist: null
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist:
+      - Speedloader22WM6Shot
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  # PISTOLS
+  - FirearmID: Defender45
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Stamped
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Classic
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Dillinger
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Gold
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Longflop
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Modern
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: M1911Operator
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  # BOLT-ACTION RIFLES
+  - FirearmID: DeLisleCarbine
+    MagazineBlacklist:
+      - MagazineDefender45
+      - MagazineM1911Stamped
+      - MagazineM1911
+      - MagazineM1911Dillinger
+      - MagazineM1911Tactical
+      - MagazineM1911OG
+      - MagazineDeLisleCarbine
+    MagazineWhitelist: null
+    ClipBlacklist:
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: m_m700_wood
+    MagazineBlacklist:
+      - M700AICS10
+      - M700AICS5
+      - M700Magpul5
+      - M700Pmag10
+      - M700MDT12
+      - M700Promag10
+      - m700pro20
+      - m700wyatt10
+      - Wyatt5
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  # BATTLE RIFLES
+  - FirearmID: Mk17
+    MagazineBlacklist:
+      - MagazineFal10rnd
+      - MagazineFal20rnd
+      - MagazineFal30rnd
+      - fal10round
+      - fal20round
+      - fal30round
+      - fal30c
+      - fal50
+      - falplastic
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+  - FirearmID: Mk17CQC
+    MagazineBlacklist:
+      - MagazineFal10rnd
+      - MagazineFal20rnd
+      - MagazineFal30rnd
+      - fal10round
+      - fal20round
+      - fal30round
+      - fal30c
+      - fal50
+      - falplastic
+    MagazineWhitelist: null
+    ClipBlacklist: null
+    ClipWhitelist: null
+    RoundBlacklist: null
+    RoundWhitelist: null
+
+RequireSightTable:
+  Category: Attachment
+  Rarity: 1.0
+  RequiredQuest: null
+  ItemsToSpawn: 1
+  MinAmmoCapacity: -1
+  MaxAmmoCapacity: -1
+  NumMagsSpawned: -1
+  NumClipsSpawned: -1
+  NumRoundsSpawned: -1
+  SpawnMagAndClip: false
+  BespokeAttachmentChance: 1.0
+  IsCompatibleMagazine: false
+  AutoPopulateGroup: false
+  ForceSpawnAllSubPools: false
+  IDOverride:
+    - CantedSightsFront
+    - H416IronsFront
+    - H416IronsRear
+    - IronFrontSight
+    - IronSightsA2Front
+    - IronSightsA2Rear
+    - KnightSightForward
+    - MPIronsFront
+    - ScorpionSightsFront
+    - ScorpionSightsRear
+    - FabarmIronSight
+    - GlowringFrontSight
+  Eras: null
+  Sets: null
+  Sizes: null
+  Actions: null
+  Modes: null
+  ExcludedModes: null
+  FeedOptions: null
+  MountsAvailable: null
+  RoundPowers: null
+  Features: null
+  MeleeStyles: null
+  MeleeHandedness: null
+  MountTypes: null
+  PowerupTypes: null
+  ThrownTypes: null
+  ThrownDamageTypes: null
+  SubGroups:
+    - Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 2
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: -1
+      NumClipsSpawned: -1
+      NumRoundsSpawned: -1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - IronSightsA2Front
+        - HandleSightM16A4
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+
+PrimaryWeapon:
+  PrimaryGroup:
+    Category: Firearm
+    Rarity: 0.0
+    RequiredQuest: null
+    ItemsToSpawn: 1
+    MinAmmoCapacity: 0
+    MaxAmmoCapacity: 0
+    NumMagsSpawned: 3
+    NumClipsSpawned: 4
+    NumRoundsSpawned: 1
+    SpawnMagAndClip: false
+    BespokeAttachmentChance: 0.0
+    IsCompatibleMagazine: false
+    AutoPopulateGroup: false
+    ForceSpawnAllSubPools: false
+    IDOverride: null
+    Eras: null
+    Sets: null
+    Sizes: null
+    Actions: null
+    Modes: null
+    ExcludedModes: null
+    FeedOptions: null
+    MountsAvailable: null
+    RoundPowers: null
+    Features: null
+    MeleeStyles: null
+    MeleeHandedness: null
+    MountTypes: null
+    PowerupTypes: null
+    ThrownTypes: null
+    ThrownDamageTypes: null
+    SubGroups:
+      # SINGLE-ACTION REVOLVER
+      - Category: Firearm
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: 5
+        MaxAmmoCapacity: 7
+        NumMagsSpawned: 1
+        NumClipsSpawned: 3
+        NumRoundsSpawned: 30
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: false
+        IDOverride:
+          - BFR
+          - C1851Conversion
+          - FA83
+          - Hawk357
+          - M1879
+          - M1895Nagant
+          - RS15
+          - SchofieldModel3
+          - SingleActionArmy
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+        
+      # DOUBLE-BARREL SHOTGUN
+      - Category: Firearm
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: 2
+        MaxAmmoCapacity: 2
+        NumMagsSpawned: 3
+        NumClipsSpawned: 4
+        NumRoundsSpawned: 20
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: false
+        IDOverride:
+          - DoubleBarrel1882
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+
+      # DE LISLE
+      - Category: Firearm
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: 7
+        MaxAmmoCapacity: 7
+        NumMagsSpawned: 3
+        NumClipsSpawned: 4
+        NumRoundsSpawned: 1
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: false
+        IDOverride:
+          - DeLisleCarbine
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+
+      # CROSSBOW
+      - Category: Firearm
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: 1
+        MaxAmmoCapacity: 1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 1
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: false
+        IDOverride:
+          - compound_crossbow
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+
+  BackupGroup: null
+
+SecondaryWeapon:
+  PrimaryGroup: null
+  BackupGroup: null
+
+TertiaryWeapon:
+  PrimaryGroup: null
+  BackupGroup: null
+
+PrimaryItem:
+  PrimaryGroup:
+    Category: Powerup
+    Rarity: 1.0
+    RequiredQuest: null
+    ItemsToSpawn: 1
+    MinAmmoCapacity: -1
+    MaxAmmoCapacity: -1
+    NumMagsSpawned: 3
+    NumClipsSpawned: 4
+    NumRoundsSpawned: 1
+    SpawnMagAndClip: false
+    BespokeAttachmentChance: 1.0
+    IsCompatibleMagazine: false
+    AutoPopulateGroup: true
+    ForceSpawnAllSubPools: false
+    IDOverride: null
+    Eras: null
+    Sets: null
+    Sizes: null
+    Actions: null
+    Modes: null
+    ExcludedModes: null
+    FeedOptions: null
+    MountsAvailable: null
+    RoundPowers: null
+    Features: null
+    MeleeStyles: null
+    MeleeHandedness: null
+    MountTypes: null
+    PowerupTypes:
+      - Health
+    ThrownTypes: null
+    ThrownDamageTypes: null
+    SubGroups: null
+  BackupGroup: null
+
+SecondaryItem:
+  PrimaryGroup:
+    Category: MeleeWeapon
+    Rarity: 1.0
+    RequiredQuest: null
+    ItemsToSpawn: 1
+    MinAmmoCapacity: -1
+    MaxAmmoCapacity: -1
+    NumMagsSpawned: 0
+    NumClipsSpawned: 0
+    NumRoundsSpawned: 0
+    SpawnMagAndClip: false
+    BespokeAttachmentChance: 1.0
+    IsCompatibleMagazine: false
+    AutoPopulateGroup: false
+    ForceSpawnAllSubPools: false
+    IDOverride:
+      - FarmTool_Broom
+      - FarmTool_GardenShovel
+      - FarmTool_ShovelFlat
+      - FarmTool_Sickle
+      - FarmTool_Trowel
+      - PipeWrench
+      - GarageTool_DustPan
+      - GarageTool_FlatheadScrewdriver
+      - Hammer
+      - GarageTool_Hammer2
+      - GarageTool_HammerOld
+      - GarageTool_MalletRound
+      - GarageTool_MalletSquare
+      - GarageTool_ShortSledge
+      - GarageTool_SledgeHammer
+      - GarageTool_SledgeHammerOld
+      - GarageTool_WrenchTwoSided
+      - BodyPillow
+      - AluminumCandycane
+      - YuleLog
+      - Improvised_BaseballBat
+      - Improvised_CastIronPan
+      - Improvised_CricketBat
+      - Improvised_GrenthorStaff
+      - Improvised_PipeBent
+      - Improvised_Shoe
+    Eras: null
+    Sets: null
+    Sizes: null
+    Actions: null
+    Modes: null
+    ExcludedModes: null
+    FeedOptions: null
+    MountsAvailable: null
+    RoundPowers: null
+    Features: null
+    MeleeStyles: null
+    MeleeHandedness: null
+    MountTypes: null
+    PowerupTypes: null
+    ThrownTypes: null
+    ThrownDamageTypes: null
+    SubGroups: null
+  BackupGroup: null
+
+TertiaryItem:
+  PrimaryGroup: null
+  BackupGroup: null
+
+Shield:
+  PrimaryGroup: null
+  BackupGroup: null
+
+EquipmentPools:
+  # Firearms
+  ## HOLD 1
+  ## Hold 1's firearms are generally focused around western-era gear for cheap firearms, with the pricier gear being a bit more capable, hold 1 is intended to be within the bounds of generally completable with western gear, and hold 2 later on still being capable, so you can get away with being stingy with your main gear and instead invest in power-ups, that or you can get an infinite ammo power-up with a single-action and machine gun fan absolutely everything like an idiot. Shout out to those kinds of people.
+  ### SINGLE-ACTION REVOLVER
+  - Type: Firearm
+    IconName: TNH_Icon_revolver
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 30
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - SchofieldModel3
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### DOUBLE-ACTION REVOLVER
+  - Type: Firearm
+    IconName: TNH_Icon_revolver
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 24
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - B600
+        - BFR
+        - Bodyguard38
+        - Bull454
+        - Detective Special 38
+        - SW500
+        - SW500Junior
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BREECH-LOADER
+  - Type: Firearm
+    IconName: TNH_Icon_breachloadingRifle
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 1
+      MaxAmmoCapacity: 1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 12
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - RemingtonRollingBlockNavy
+        - RollingBlockRifle
+        - RollingBlockRifleCreedmoor
+        - Sharps1874
+        - MartiniHenry
+        - Gun.FTW.BFG50
+        - potatoesTactdoor
+        - potatoesTrapdoorCarbine
+        - potatoesTrapdoorRifle
+        - potatoesWerndlRifle
+        - potatoesWerndlRifleChopShop
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### DOUBLE-BARREL SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_break_action
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 2
+      MaxAmmoCapacity: 2
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - DoubleBarrel1882
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BOLT-ACTION PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_bolt_action_pistols
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - MosinObrez
+        - Sako85Obrez
+        - PisBAGewher98ObrezCB
+        - PisLvrWin1895Obrez
+        - m700_obrez
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### POCKET PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 8
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannSimplex
+        - Jetfire950MOP
+        - Jetfire950STD
+        - Pocket1906
+        - PPK
+        - potatoesZip22
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BOLT-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_bolt_action
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - AWM
+        - BerthierCarbine
+        - Carcano1891
+        - FRF2
+        - K98k
+        - M40A1
+        - Model70
+        - Mosin91_30
+        - MosinM1891
+        - MosinM38
+        - Sako85
+        - Springfield1903
+        - RifBAGewher98CB
+        - RifBAGewher98SB
+        - potatoesmannlicher1895
+        - RifLvrWin1895
+        - potatoesRossRifle
+        - VetterliCarbine.Muzz
+        - m700_vintage
+        - m700_modern
+        - t5000
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BOLT-ACTION SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_magazine_fed
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 4
+      MaxAmmoCapacity: 8
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 12
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Toz106
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### GRENADE LAUNCHER..?
+  - Type: Firearm
+    IconName: TNH_Icon_grenade_launcher
+    TokenCost: 3
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 0
+      MaxAmmoCapacity: 0
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 0
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: true
+      IDOverride:
+        - Improvised_Cleaver
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups:
+        - Category: Attachment
+          Rarity: 1.0
+          RequiredQuest: null
+          ItemsToSpawn: 3
+          MinAmmoCapacity: -1
+          MaxAmmoCapacity: -1
+          NumMagsSpawned: 3
+          NumClipsSpawned: 4
+          NumRoundsSpawned: 1
+          SpawnMagAndClip: false
+          BespokeAttachmentChance: 0.0
+          IsCompatibleMagazine: false
+          AutoPopulateGroup: false
+          ForceSpawnAllSubPools: false
+          IDOverride:
+            - PinnedGrenadeT13Beano
+          Eras: null
+          Sets: null
+          Sizes: null
+          Actions: null
+          Modes: null
+          ExcludedModes: null
+          FeedOptions: null
+          MountsAvailable: null
+          RoundPowers: null
+          Features: null
+          MeleeStyles: null
+          MeleeHandedness: null
+          MountTypes: null
+          PowerupTypes: null
+          ThrownTypes: null
+          ThrownDamageTypes: null
+          SubGroups: null
+
+    BackupGroup: null
+
+  ### BOLT-ACTION RIFLE, BUT A LITTLE BIT MORE EXPENSIVE
+  - Type: Firearm
+    IconName: TNH_Icon_bolt_action
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - LeeEnfieldJungleCarbine
+        - LeeEnfieldNo4Mk1
+        - LeeEnfieldSwedeMod
+        - MRAD
+        - Scout
+        - SV98
+        - Tactical8400Shorty
+        - Tactical8400SuperShorty
+        - RifBAEnfieldMkIII
+        - m700_vintage
+        - m700_modern
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### OFFICER PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 7
+      MaxAmmoCapacity: 10
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannNo5
+        - C93Borchardt
+        - C96Mauser
+        - Defender45
+        - ll
+        - LugerLP08Artillery
+        - LugerP08
+        - M1911
+        - M1911Classic
+        - M1911Longflop
+        - M1911Modern
+        - M1911Operator
+        - M1912
+        - Makarov
+        - Match22
+        - Mk3
+        - Mk4_Hunter
+        - P22
+        - P38
+        - P38Snub
+        - P5Compact
+        - Ruby
+        - TT33
+        - VZ64Skorpion
+        - GunSWShield
+        - Grey_FrommerStop
+        - SuperJagare
+        - ASP
+        - potatoesGlisenti
+        - potatoesHiPointG1
+        - potatoesWoodsman
+        - 1911Commander
+        - M712Mauser
+        - VZ64Skorpion
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### LEVER-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_lever_action
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 10
+      MaxAmmoCapacity: 15
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 30
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - 1860Rifle
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## HOLD 2
+  ### SPEED-LOADED REVOLVER
+  - Type: Firearm
+    IconName: TNH_Icon_revolver
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 24
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - MP412REX
+        - OTS38
+        - Python
+        - Rhino 40
+        - Rhino 50
+        - Rhino 60
+        - SW29
+        - SW629
+        - SWModel10
+        - SWStealth
+        - Unica6
+        - WebleyFosbery
+        - WebleyRevolver
+        - potatoesHuntingRevolver
+        - L8.FTW
+        - DesertEagle50
+        - FrontierModelB
+        - potatoes1286m1gpistol
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### DOUBLE-BARREL SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_break_action
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 2
+      MaxAmmoCapacity: 2
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - DT11
+        - DT11Shorty
+        - HammerlessLong
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BOLT-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_bolt_action
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 0
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - LeeEnfieldJungleCarbine
+        - LeeEnfieldNo4Mk1
+        - LeeEnfieldSwedeMod
+        - MRAD
+        - Scout
+        - SV98
+        - Tactical8400Shorty
+        - Tactical8400SuperShorty
+        - RifBAEnfieldMkIII
+        - m700_vintage
+        - m700_modern
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### OFFICER PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 7
+      MaxAmmoCapacity: 10
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannNo5
+        - C93Borchardt
+        - C96Mauser
+        - Defender45
+        - ll
+        - LugerLP08Artillery
+        - LugerP08
+        - M1911
+        - M1911Classic
+        - M1911Longflop
+        - M1911Modern
+        - M1911Operator
+        - M1912
+        - Makarov
+        - Match22
+        - Mk3
+        - Mk4_Hunter
+        - P22
+        - P38
+        - P38Snub
+        - P5Compact
+        - Ruby
+        - TT33
+        - GunSWShield
+        - Grey_FrommerStop
+        - SuperJagare
+        - ASP
+        - potatoesGlisenti
+        - potatoesHiPointG1
+        - potatoesWoodsman
+        - 1911Commander
+        - M712Mauser
+        - VZ64Skorpion
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### COMBAT PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 10
+      MaxAmmoCapacity: 14
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannNo5
+        - BergmannNo5Carbine
+        - BrowningHP
+        - Deaglov
+        - DesertEagle44
+        - DesertEagle357
+        - Explorer22
+        - Mk22Mod0
+        - MK23
+        - P250
+        - USPMatch
+        - USPTactical
+        - DardickRevolver
+        - GunB10
+        - GunBren45
+        - potatoesMarsAutomatic
+        - potatoesp220
+        - potatoesRuger45
+        - potatoesWoodsman
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### LEVER-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_lever_action
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 10
+      MaxAmmoCapacity: 15
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 30
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - 1873Carbine
+        - 1894Rifle
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### PUMP-ACTION SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_tube_fed
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 1
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 8
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 12
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Auto5
+        - CQB870
+        - Express870
+        - Hammerless520
+        - M1897Trench
+        - MarshallUltrashort
+        - MB590A1
+        - MCS870
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## HOLD 3
+  ### BOLT-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_bolt_action
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 20
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - LeeEnfieldJungleCarbine
+        - LeeEnfieldNo4Mk1
+        - LeeEnfieldSwedeMod
+        - MRAD
+        - Scout
+        - SV98
+        - Tactical8400Shorty
+        - Tactical8400SuperShorty
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### COMBAT PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 15
+      MaxAmmoCapacity: 20
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannNo5
+        - BergmannNo5Carbine
+        - CZ75Shadow
+        - FiveSevenFDE
+        - G17
+        - G17Custom
+        - G19
+        - G22
+        - gl
+        - GSh18
+        - M1912P16
+        - M9
+        - M92fs
+        - M9A1
+        - M9A3
+        - Max9
+        - P226
+        - PL14
+        - PMR30
+        - PX4Storm
+        - Tec9
+        - USPMatch9mm
+        - UziPro
+        - VP9
+        - G18
+        - G18C
+        - LilGreasy
+        - M712Mauser
+        - M93R
+        - M93RA9
+        - UnionFrench
+        - potatoesArexAlphaCustom
+        - potatoesArexAlpha
+        - potatoesJericho
+        - potatoesJerichoSpiegel
+        - potatoesP30
+        - potatoesruger57
+        - potatoessp2022
+        - potatoessp2022STD
+        - PisAutVP70
+        - PisMachVP70stocked
+        - potatoesZip9
+        - FNXG
+        - FNX
+        - P99Gen2.Muzz
+        - P99Gen1.Muzz
+        - sig_p226
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### LEVER-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_lever_action
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 15
+      MaxAmmoCapacity: 15
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - 1873Rifle
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### PUMP-ACTION SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_tube_fed
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 8
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 12
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Auto5
+        - CQB870
+        - Express870
+        - Hammerless520
+        - M1897Trench
+        - MarshallUltrashort
+        - MB590A1
+        - MCS870
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### PISTOL-CALIBER CARBINE
+  - Type: Firearm
+    IconName: TNH_Icon_MP7
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 15
+      MaxAmmoCapacity: 25
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - CX4
+        - HydeLightRifle
+        - M1Carbine
+        - MauserTrenchCarbine
+        - Phantom9
+        - Takedown1022
+        - Vector45Carbine
+        - saiga9
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### GRENADE LAUNCHERS
+  - Type: Firearm
+    IconName: TNH_Icon_grenade_launcher
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 1
+      MaxAmmoCapacity: 1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - H69A1
+        - M79GrenadeLauncher
+        - RGM40_Kastet
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### INTERMEDIATE RIFLES
+  - Type: Firearm
+    IconName: TNH_Icon_carbine
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 10
+      MaxAmmoCapacity: 10
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - AR15SBR
+        - Bubba15
+        - SKSModern
+        - SportACR
+        - vz58Sport
+        - mcx_civ
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### SEMI-AUTOMATIC SHOTGUN
+  ### Hey, Saiga-12 fans. Get a load of this.
+  - Type: Firearm
+    IconName: TNH_Icon_magazine_fed
+    TokenCost: 6
+    TokenCostLimited: 6
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 5
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 24
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - MTs255
+        - MK12
+        - MP155k
+        - Saiga12k
+        - KSG
+        - SjogrenInertial
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BATTLE RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_battle_rifle
+    TokenCost: 6
+    TokenCostLimited: 6
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 8
+      MaxAmmoCapacity: 10
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Dragonuv
+        - Fal
+        - FalPara
+        - FaTactical
+        - Johnson1941
+        - M14
+        - M1Garand
+        - MadsenLAR
+        - MAS49/56
+        - SVT40
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## HOLD 4
+  ## Hold 4 mostly keeps the arsenal the same from hold 3, minus removing the budget options, this mostly helps the player get the more fancy weapons that they may not have been able to afford last time around.
+  ### COMBAT PISTOL
+  - Type: Firearm
+    IconName: TNH_Icon_pistols
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 15
+      MaxAmmoCapacity: 20
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BergmannNo5
+        - BergmannNo5Carbine
+        - CZ75Shadow
+        - FiveSevenFDE
+        - G17
+        - G17Custom
+        - G19
+        - G22
+        - gl
+        - GSh18
+        - M1912P16
+        - M9
+        - M92fs
+        - M9A1
+        - M9A3
+        - Max9
+        - P226
+        - PL14
+        - PMR30
+        - PX4Storm
+        - Tec9
+        - USPMatch9mm
+        - UziPro
+        - VP9
+        - G18
+        - G18C
+        - LilGreasy
+        - M712Mauser
+        - M93R
+        - M93RA9
+        - UnionFrench
+        - potatoesArexAlphaCustom
+        - potatoesArexAlpha
+        - potatoesJericho
+        - potatoesJerichoSpiegel
+        - potatoesP30
+        - potatoesruger57
+        - PisAutVP70
+        - PisMachVP70stocked
+        - potatoesZip9
+        - FNXG
+        - FNX
+        - P99Gen2.Muzz
+        - P99Gen1.Muzz
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### LEVER-ACTION RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_lever_action
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 15
+      MaxAmmoCapacity: 15
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - 1873Rifle
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### PUMP-ACTION SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_tube_fed
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 8
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 12
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Auto5
+        - CQB870
+        - Express870
+        - Hammerless520
+        - M1897Trench
+        - MarshallUltrashort
+        - MB590A1
+        - MCS870
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### PISTOL-CALIBER CARBINE
+  - Type: Firearm
+    IconName: TNH_Icon_MP7
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 30
+      MaxAmmoCapacity: 35
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - APC45
+        - APC9
+        - CX4
+        - Luger1902Carbine
+        - M1Carbine
+        - MauserTrenchCarbine
+        - Phantom9
+        - Vector45Carbine
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### INTERMEDIATE RIFLES
+  - Type: Firearm
+    IconName: TNH_Icon_carbine
+    TokenCost: 5
+    TokenCostLimited: 5
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 20
+      MaxAmmoCapacity: 20
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - AR15SBR
+        - Bubba15
+        - SKSModern
+        - SportACR
+        - vz58Sport
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BATTLE RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_battle_rifle
+    TokenCost: 5
+    TokenCostLimited: 5
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 8
+      MaxAmmoCapacity: 10
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Dragonuv
+        - Fal
+        - FalPara
+        - FaTactical
+        - Johnson1941
+        - M14
+        - M1Garand
+        - MadsenLAR
+        - MAS49/56
+        - SVT40
+        - RifBRHowell
+        - HiddenHowellEng
+        - potatoesG43
+        - potatoesG43nhg
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### GRENADE LAUNCHERS
+  ### Ka-thonk.
+  - Type: Firearm
+    IconName: TNH_Icon_grenade_launcher
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 1
+      MaxAmmoCapacity: 1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - H69A1
+        - M79GrenadeLauncher
+        - RGM40_Kastet
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### INTERMEDIATE RIFLES
+  - Type: Firearm
+    IconName: TNH_Icon_carbine
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 6
+      MaxAmmoCapacity: 7
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 18
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - M2Tactical
+        - SPAS12Tactical
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### MAG-FED SEMI-AUTOMATIC SHOTGUN
+  - Type: Firearm
+    IconName: TNH_Icon_magazine_fed
+    TokenCost: 6
+    TokenCostLimited: 6
+    MinLevelAppears: 3
+    MaxLevelAppears: 3
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 5
+      MaxAmmoCapacity: 5
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 24
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - MK12
+        - MP155k
+        - Saiga12k
+        - KSG
+        - SjogrenInertial
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BATTLE RIFLE
+  - Type: Firearm
+    IconName: TNH_Icon_battle_rifle
+    TokenCost: 6
+    TokenCostLimited: 6
+    MinLevelAppears: 2
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 20
+      MaxAmmoCapacity: 25
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - AR10
+        - Fal
+        - FalPara
+        - FaTactical
+        - GalilSAR
+        - M14
+        - MadsenLAR
+        - fg42_optimized
+        - RifleAsh12
+        - farquar_hill
+        - RifBRHowell
+        - HiddenHowellEng
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  # EQUIPMENT
+  ## COSMETIC
+  ### RAIL ADAPTORS
+  - Type: Equipment
+    IconName: TNH_Icon_rail_adapters
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 0.5
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - Adapter
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes:
+        - Picatinny
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### IRON SIGHTS
+  - Type: Equipment
+    IconName: TNH_Icon_iron_sights
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 0.5
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - IronSight
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes:
+        - Picatinny
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### FOREGRIPS
+  - Type: Equipment
+    IconName: TNH_Icon_foregrips
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 0.5
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - Grip
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### FLASHLIGHTS
+  - Type: Equipment
+    IconName: TNH_Icon_flashlight
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 2
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - Illumination
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### SCOPES
+  - Type: Equipment
+    IconName: TNH_Icon_scopes
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - Magnification
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes:
+        - Picatinny
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### REFLEX SIGHTS
+  - Type: Equipment
+    IconName: TNH_Icon_reflex_sights
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features:
+        - Reflex
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes:
+        - Picatinny
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### MOTHER FUCKING GUN HATS
+  ### Yes. I added gun hats.
+  - Type: Equipment
+    IconName: Icon_QuestionMark
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 0.05
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: -1
+      NumClipsSpawned: -1
+      NumRoundsSpawned: -1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - RailHatBBArmet
+        - RailHatBBFootballHelmetBeefKicker
+        - RailHatBBGladiatorPorcus
+        - RailHatBBMF2Scout
+        - RailHatBBPropellerCap
+        - RailHatBBTruckerhatNo1
+        - RailHatMEBeanieJean
+        - RailHatMEBoater
+        - RailHatMEfisherwienerbrown
+        - RailHatMEGamblerCrimson
+        - RailHatMEGladiatorSecutor
+        - RailHatMEGoalieMask
+        - RailHatMEHelmetCamoForest
+        - RailHatMEKettleHelmet
+        - RailHatMEMF2Demo
+        - RailHatMEPinchedFrontPearl
+        - RailHatMEYukonhatPlaidRed
+        - RailHatMRBarbute
+        - RailHatMRElfHatGreen
+        - RailHatMRGladiatorMurmillo
+        - RailHatMRGladiatorThraex
+        - RailHatMRHelmetCamoIce
+        - RailHatMRMF2Engineer
+        - RailHatMRMinerHelmet
+        - RailHatMRNooseBag
+        - RailHatMRPorkPieBrown
+        - RailHatMWbowlergrey
+        - RailHatMWClocheDaisy
+        - RailHatMWFootballHelmetHamfister
+        - RailHatMWGladiatorEques
+        - RailHatMWHelmetCamoDesert
+        - RailHatMWMF2Soldier
+        - RailHatMWNormanCasquev2
+        - RailHatMWRangerHatTan
+        - RailHatMWSunhat
+        - RailHatMWTruckerhatBlueWhite
+        - RailHatRABascinet
+        - RailHatRADunceCap
+        - RailHatRAGladiatorMaximus
+        - RailHatRAHelmetMercWiener
+        - RailHatRAMF2Sniper
+        - RailHatRASantaHat
+        - RailHatRAStovePipeGrey
+        - RailHatRAtophatblack
+        - RailHatWDBeanieCrimson
+        - RailHatWDCadetCapBrown
+        - RailHatWDCadetCapGreen
+        - RailHatWDCadetCapGrey
+        - RailHatWDCadetCapTan
+        - RailHatWDClassicHelmetBrown
+        - RailHatWDClassicHelmetGreen
+        - RailHatWDClassicHelmetGrey
+        - RailHatWDClassicHelmetTan
+        - RailHatWDClocheSkyBlue
+        - RailHatWDCombatCapBrown
+        - RailHatWDCombatCapGreen
+        - RailHatWDCombatCapGrey
+        - RailHatWDCombatCapTan
+        - RailHatWDGeneralCapBrown
+        - RailHatWDGeneralCapGreen
+        - RailHatWDGeneralCapGrey
+        - RailHatWDGeneralCapTan
+        - RailHatWDGladiatorHoplite
+        - RailHatWDHelmetShotdog
+        - RailHatWDMillitarycapBlack
+        - RailHatWDMillitarycapBlue
+        - RailHatWDOpenCrownGrey
+        - RailHatWDTruckerhatGreenWhite
+        - RailHatWDYukonhatOlive
+      Eras:
+        - PostWar
+        - Modern
+      Sets:
+        - Real
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles:
+        - Tool
+      MeleeHandedness:
+        - OneHanded
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  # CONSUMABLES
+  # Rather than recycling the power-ups directly from Classic Loadout Louis, I've decided to make my own tweaks to the power-ups, this is mostly trimming the fat though.
+  ## POWER-UPS
+  ### HEALING
+  - Type: Consumable
+    IconName: TNH_Icon_weiner_health
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Powerup
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes:
+        - Health
+        - Regen
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### QUAD DAMAGE
+  - Type: Consumable
+    IconName: TNH_Icon_weiner_sword
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 1
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Powerup
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes:
+        - QuadDamage
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### sv_infinite_ammo 1
+  - Type: Consumable
+    IconName: TNH_Icon_weiner_ammo
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Powerup
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes:
+        - InfiniteAmmo
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### STEALTH
+  - Type: Consumable
+    IconName: TNH_Icon_weiner
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Powerup
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes:
+        - GhostMode
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### INVULNERABILITY
+  - Type: Consumable
+    IconName: TNH_Icon_weiner_shield
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Powerup
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes:
+        - Invincibility
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## UTILITY
+  ### STUN GRENADE
+  - Type: Equipment
+    IconName: TNH_Icon_utility_grenade
+    TokenCost: 2
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 3
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - PinnedGrenadeXM84
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## EXPLOSIVES
+  ### FRAGMENTATION GRENADE
+  - Type: Equipment
+    IconName: TNH_Icon_grenade
+    TokenCost: 3
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 2
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: true
+      ForceSpawnAllSubPools: false
+      IDOverride: null
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes:
+        - Pinned
+      ThrownDamageTypes:
+        - Explosive
+      SubGroups: null
+    BackupGroup: null
+
+  ### CLAYMORES
+  - Type: Equipment
+    IconName: TNH_Icon_claymore
+    TokenCost: 3
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 4
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 4
+      NumRoundsSpawned: 1
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - LaserActivatedClaymoreMine
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  # STORAGE
+  ## BACKPACKS
+  - Type: Storage
+    IconName: TNH_Icon_backpack
+    TokenCost: 2
+    TokenCostLimited: 3
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Uncategorized
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BackpackA
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## MELEE
+  ### SHORT BLADED
+  - Type: Storage
+    IconName: TNH_Icon_tactical
+    TokenCost: 0
+    TokenCostLimited: 0
+    MinLevelAppears: 0
+    MaxLevelAppears: 1
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 0
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - GarageTool_HandAxe
+        - Improvised_BillhookMachete
+        - Improvised_Machete
+        - Dagger_Elegant
+        - Dagger_Footsmans
+        - Dagger_Horned
+        - Dagger_SwordHilt
+        - CombatKnife
+        - Karambit
+        - Kukri
+        - M3TrenchKnife
+        - MX8
+        - SurvivalKnife
+        - TacticalKnife
+        - Tanto
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### SPEAR
+  - Type: Storage
+    IconName: TNH_Icon_medieval
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 0
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Roman_Pilum1
+        - Roman_Pilum2
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### BAYONET
+  - Type: Storage
+    IconName: TNH_Icon_bayonet
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 0
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 0
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: true
+      IDOverride:
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups:
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetAK
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetGrillFork
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetLeeEnfield
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetM1
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetM4
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetM9
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetMAS4956
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetMosin
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetSpatula
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - BayonetSVT40
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetSKSBayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetGewher98Bayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetK98KBayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetLongGewehr98Bayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - AttWeaponM1917Bayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetFedorovBayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+      - Category: Attachment
+        Rarity: 1.0
+        RequiredQuest: null
+        ItemsToSpawn: 1
+        MinAmmoCapacity: -1
+        MaxAmmoCapacity: -1
+        NumMagsSpawned: 0
+        NumClipsSpawned: 0
+        NumRoundsSpawned: 0
+        SpawnMagAndClip: false
+        BespokeAttachmentChance: 1.0
+        IsCompatibleMagazine: false
+        AutoPopulateGroup: false
+        ForceSpawnAllSubPools: true
+        IDOverride:
+          - MelBayonetWin1895Bayonet
+        Eras: null
+        Sets: null
+        Sizes: null
+        Actions: null
+        Modes: null
+        ExcludedModes: null
+        FeedOptions: null
+        MountsAvailable: null
+        RoundPowers: null
+        Features: null
+        MeleeStyles: null
+        MeleeHandedness: null
+        MountTypes: null
+        PowerupTypes: null
+        ThrownTypes: null
+        ThrownDamageTypes: null
+        SubGroups: null
+    BackupGroup: null
+
+  ### SWORD
+  - Type: Storage
+    IconName: TNH_Icon_medieval
+    TokenCost: 3
+    TokenCostLimited: 3
+    MinLevelAppears: 1
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Attachment
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 0
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Medieval_ArmingSword
+        - Medieval_BastardSword
+        - Medieval_Claymore
+        - Medieval_Cutlass
+        - Medieval_Espadon
+        - Medieval_Estoc
+        - Medieval_Falchion
+        - Medieval_Flameberg
+        - Medieval_Grossmesser
+        - Katana
+        - Medieval_Katzbalger
+        - Medieval_LongSword1
+        - Medieval_LongSword2
+        - Medieval_LongSword3
+        - Medieval_LongSword4
+        - Medieval_Rapier
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  # LOCOMOTION TOOLS
+  ## GRAPPLE
+  - Type: Locomotion
+    IconName: TNH_Icon_grappel
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Uncategorized
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Grapple
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## CLIMBING AXE
+  - Type: Locomotion
+    IconName: TNH_Icon_climbingaxe
+    TokenCost: 1
+    TokenCostLimited: 1
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Uncategorized
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - Improvised_ClimbingAxe
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## PLUNGER LAUNCHER..?
+  - Type: Locomotion
+    IconName: TNH_Icon_plungerlauncher
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 1
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Uncategorized
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - PlungerLauncher
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ## GRAPPLE, BUT GUN
+  - Type: Locomotion
+    IconName: TNH_Icon_grappelgun
+    TokenCost: 4
+    TokenCostLimited: 4
+    MinLevelAppears: 1
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Uncategorized
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: -1
+      MaxAmmoCapacity: -1
+      NumMagsSpawned: 3
+      NumClipsSpawned: 3
+      NumRoundsSpawned: 8
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 0.5
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - GrappleGun
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+  ### DOUBLE-BARREL SHOTGUN
+  ### You heard me.
+  - Type: Locomotion
+    IconName: TNH_Icon_break_action
+    TokenCost: 2
+    TokenCostLimited: 2
+    MinLevelAppears: 0
+    MaxLevelAppears: 99
+    SpawnsInSmallCase: false
+    SpawnsInLargeCase: false
+    PrimaryGroup:
+      Category: Firearm
+      Rarity: 1.0
+      RequiredQuest: null
+      ItemsToSpawn: 1
+      MinAmmoCapacity: 2
+      MaxAmmoCapacity: 2
+      NumMagsSpawned: 0
+      NumClipsSpawned: 0
+      NumRoundsSpawned: 6
+      SpawnMagAndClip: false
+      BespokeAttachmentChance: 1.0
+      IsCompatibleMagazine: false
+      AutoPopulateGroup: false
+      ForceSpawnAllSubPools: false
+      IDOverride:
+        - BreakActionTheOG
+      Eras: null
+      Sets: null
+      Sizes: null
+      Actions: null
+      Modes: null
+      ExcludedModes: null
+      FeedOptions: null
+      MountsAvailable: null
+      RoundPowers: null
+      Features: null
+      MeleeStyles: null
+      MeleeHandedness: null
+      MountTypes: null
+      PowerupTypes: null
+      ThrownTypes: null
+      ThrownDamageTypes: null
+      SubGroups: null
+    BackupGroup: null
+
+Levels:
+  # HOLD 1
+  - NumOverrideTokensForHold: 3
+    MinSupplyPoints: 3
+    MaxSupplyPoints: 3
+    MinConstructors: 2
+    MaxConstructors: 2
+    MinPanels: 3
+    MaxPanels: 3
+    MinBoxesSpawned: 2
+    MaxBoxesSpawned: 2
+    MinTokensPerSupply: 0
+    MaxTokensPerSupply: 0
+    BoxTokenChance: 0.0
+    BoxHealthChance: 1.0
+    PossiblePanelTypes:
+      - AmmoReloader
+      - MagDuplicator
+      - Recycler
+    TakeChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard
+      NumTurrets: 0
+      NumGuards: 3
+      IFFUsed: 1
+    HoldPhases:
+      # Phase one is a standard static hold, designed to get the player in the groove before the second and third holds.
+      - Encryptions:
+          - Static
+        MinTargets: 4
+        MaxTargets: 4
+        MinTargetsLimited: 3
+        MaxTargetsLimited: 3
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 2
+        MaxEnemies: 2
+        MaxEnemiesAlive: 4
+        MaxDirections: 2
+        SpawnCadence: 20.0
+        ScanTime: 30.0
+        WarmupTime: 5.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      # Phase two is a 'rush' hold, only one enemy spawns at a time, but they have a good ability to pile up.
+      # Now featuring shanky Sosigs.
+      - Encryptions:
+          - Swarm
+        MinTargets: 1
+        MaxTargets: 1
+        MinTargetsLimited: 1
+        MaxTargetsLimited: 1
+        EnemyType:
+          - sosig_j_guard_melee
+        LeaderType: sosig_j_guard_melee
+        MinEnemies: 1
+        MaxEnemies: 1
+        MaxEnemiesAlive: 5
+        MaxDirections: 3
+        SpawnCadence: 5.0
+        ScanTime: 25.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      # Phase three is a 'bunker' hold, there aren't any encryptions whatsoever, but there are plenty of enemies.
+      - Encryptions:
+          - Static
+        MinTargets: 0
+        MaxTargets: 0
+        MinTargetsLimited: 0
+        MaxTargetsLimited: 0
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 2
+        MaxEnemies: 2
+        MaxEnemiesAlive: 6
+        MaxDirections: 1
+        SpawnCadence: 15.0
+        ScanTime: 45.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+    SupplyChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard_melee
+      NumTurrets: 0
+      NumGuards: 2
+      IFFUsed: 1
+    Patrols:
+      - EnemyType:
+          - sosig_j_guard_melee
+        LeaderType: sosig_j_guard_melee
+        PatrolSize: 3
+        MaxPatrols: 2
+        MaxPatrolsLimited: 1
+        PatrolCadence: 60.0
+        PatrolCadenceLimited: 60.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+
+      - EnemyType:
+          - sosig_j_guard_melee
+        LeaderType: sosig_j_guard
+        PatrolSize: 3
+        MaxPatrols: 1
+        MaxPatrolsLimited: 1
+        PatrolCadence: 60.0
+        PatrolCadenceLimited: 60.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+
+  # HOLD 2
+  - NumOverrideTokensForHold: 4
+    MinSupplyPoints: 4
+    MaxSupplyPoints: 4
+    MinConstructors: 2
+    MaxConstructors: 2
+    MinPanels: 3
+    MaxPanels: 3
+    MinBoxesSpawned: 2
+    MaxBoxesSpawned: 2
+    MinTokensPerSupply: 0
+    MaxTokensPerSupply: 0
+    BoxTokenChance: 0.0
+    BoxHealthChance: 1.0
+    PossiblePanelTypes:
+      - AmmoReloader
+      - MagDuplicator
+      - Recycler
+    Patrols:
+      # Melee patrol
+      - EnemyType:
+          - sosig_j_guard_melee
+        LeaderType: sosig_j_guard_melee
+        PatrolSize: 3
+        MaxPatrols: 1
+        MaxPatrolsLimited: 1
+        PatrolCadence: 30.0
+        PatrolCadenceLimited: 60.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+
+      # Standard patrol
+      - EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        PatrolSize: 2
+        MaxPatrols: 2
+        MaxPatrolsLimited: 1
+        PatrolCadence: 30.0
+        PatrolCadenceLimited: 60.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+
+      # Rifle patrol
+      - EnemyType:
+          - sosig_j_guard_rifle
+        LeaderType: sosig_j_guard_rifle
+        PatrolSize: 4
+        MaxPatrols: 1
+        MaxPatrolsLimited: 1
+        PatrolCadence: 90.0
+        PatrolCadenceLimited: 120.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+
+      # Zoomy bois.
+      - EnemyType:
+          - sosig_j_speedy
+        LeaderType: sosig_j_speedy
+        PatrolSize: 2
+        MaxPatrols: 1
+        MaxPatrolsLimited: 0
+        PatrolCadence: 60.0
+        PatrolCadenceLimited: 60.0
+        IFFUsed: 1
+        SwarmPlayer: false
+        AssualtSpeed: Walking
+        IsBoss: false
+        DropChance: 0.0
+        DropsHealth: true
+    SupplyChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard_rifle
+      NumTurrets: 0
+      NumGuards: 2
+      IFFUsed: 1
+    TakeChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard
+      NumTurrets: 0
+      NumGuards: 3
+      IFFUsed: 1
+    HoldPhases:
+      - Encryptions:
+          - Hardened
+        MinTargets: 3
+        MaxTargets: 3
+        MinTargetsLimited: 2
+        MaxTargetsLimited: 2
+        EnemyType:
+          - sosig_j_bonky
+        LeaderType: sosig_j_bonky
+        MinEnemies: 2
+        MaxEnemies: 2
+        MaxEnemiesAlive: 4
+        MaxDirections: 1
+        SpawnCadence: 16.0
+        ScanTime: 30.0
+        WarmupTime: 5.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Swarm
+          - Static
+          - Static
+        MinTargets: 5
+        MaxTargets: 5
+        MinTargetsLimited: 3
+        MaxTargetsLimited: 3
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 2
+        MaxEnemies: 2
+        MaxEnemiesAlive: 4
+        MaxDirections: 1
+        SpawnCadence: 12.0
+        ScanTime: 30.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Static
+        MinTargets: 6
+        MaxTargets: 6
+        MinTargetsLimited: 4
+        MaxTargetsLimited: 4
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 3
+        MaxEnemies: 3
+        MaxEnemiesAlive: 6
+        MaxDirections: 1
+        SpawnCadence: 15.0
+        ScanTime: 35.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Incendiary
+        SwarmPlayer: false
+
+  # HOLD 3
+  - NumOverrideTokensForHold: 5
+    MinSupplyPoints: 5
+    MaxSupplyPoints: 5
+    MinConstructors: 2
+    MaxConstructors: 2
+    MinPanels: 3
+    MaxPanels: 3
+    MinBoxesSpawned: 2
+    MaxBoxesSpawned: 2
+    MinTokensPerSupply: 0
+    MaxTokensPerSupply: 0
+    BoxTokenChance: 0.0
+    BoxHealthChance: 1.0
+    PossiblePanelTypes:
+      - AmmoReloader
+      - MagDuplicator
+      - Recycler
+    Patrols:
+    SupplyChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_bonky
+      NumTurrets: 0
+      NumGuards: 2
+      IFFUsed: 1
+    TakeChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard
+      NumTurrets: 0
+      NumGuards: 3
+      IFFUsed: 1
+    HoldPhases:
+      - Encryptions:
+          - Static
+        MinTargets: 6
+        MaxTargets: 6
+        MinTargetsLimited: 4
+        MaxTargetsLimited: 4
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 3
+        MaxEnemies: 3
+        MaxEnemiesAlive: 6
+        MaxDirections: 1
+        SpawnCadence: 15.0
+        ScanTime: 30.0
+        WarmupTime: 5.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Hardened
+          - Swarm
+        MinTargets: 4
+        MaxTargets: 4
+        MinTargetsLimited: 3
+        MaxTargetsLimited: 3
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 2
+        MaxEnemies: 2
+        MaxEnemiesAlive: 4
+        MaxDirections: 1
+        SpawnCadence: 15.0
+        ScanTime: 30.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Static
+        MinTargets: 0
+        MaxTargets: 0
+        MinTargetsLimited: 0
+        MaxTargetsLimited: 0
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 1
+        MaxEnemies: 1
+        MaxEnemiesAlive: 3
+        MaxDirections: 1
+        SpawnCadence: 0.5
+        ScanTime: 40.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+  # HOLD 4
+  - NumOverrideTokensForHold: 0
+    MinSupplyPoints: 5
+    MaxSupplyPoints: 5
+    MinConstructors: 2
+    MaxConstructors: 2
+    MinPanels: 3
+    MaxPanels: 3
+    MinBoxesSpawned: 2
+    MaxBoxesSpawned: 2
+    MinTokensPerSupply: 0
+    MaxTokensPerSupply: 0
+    BoxTokenChance: 0.0
+    BoxHealthChance: 1.0
+    PossiblePanelTypes:
+      - AmmoReloader
+      - MagDuplicator
+      - Recycler
+    Patrols:
+    SupplyChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard
+      NumTurrets: 0
+      NumGuards: 2
+      IFFUsed: 1
+    TakeChallenge:
+      TurretType: SMG
+      EnemyType: sosig_j_guard
+      NumTurrets: 0
+      NumGuards: 3
+      IFFUsed: 1
+    HoldPhases:
+      - Encryptions:
+          - Hardened
+          - Static
+          - Static
+          - Static
+        MinTargets: 6
+        MaxTargets: 6
+        MinTargetsLimited: 4
+        MaxTargetsLimited: 4
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_enforcer
+        MinEnemies: 3
+        MaxEnemies: 3
+        MaxEnemiesAlive: 6
+        MaxDirections: 1
+        SpawnCadence: 10.0
+        ScanTime: 35.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Recursive
+        MinTargets: 3
+        MaxTargets: 3
+        MinTargetsLimited: 2
+        MaxTargetsLimited: 2
+        EnemyType:
+          - sosig_j_guard
+        LeaderType: sosig_j_guard
+        MinEnemies: 3
+        MaxEnemies: 3
+        MaxEnemiesAlive: 6
+        MaxDirections: 1
+        SpawnCadence: 8.0
+        ScanTime: 35.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+      - Encryptions:
+          - Static
+        MinTargets: 1
+        MaxTargets: 1
+        MinTargetsLimited: 1
+        MaxTargetsLimited: 1
+        EnemyType:
+          - sosig_j_the_most_overpowered_enemy_in_the_game
+        LeaderType: sosig_j_the_most_overpowered_enemy_in_the_game
+        MinEnemies: 1
+        MaxEnemies: 1
+        MaxEnemiesAlive: 1
+        MaxDirections: 1
+        SpawnCadence: 151.0
+        ScanTime: 15.0
+        WarmupTime: 10.0
+        IFFUsed: 1
+        GrenadeChance: 0.0
+        GrenadeType: Sosiggrenade_Flash
+        SwarmPlayer: false
+
+LevelsEndless:

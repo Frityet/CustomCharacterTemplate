@@ -1,0 +1,36 @@
+name: Create Build
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Setup Lua with Luver
+        uses: MunifTanjim/luver-action@v1.2.1
+      - run: |
+            luver install lua 5.4.3
+            luver use 5.4.3
+            luver install luarocks 3.8.0
+      - run: |
+          luarocks install lyaml
+  
+      - name: Package
+        run: lua scripts/pkg.lua
+          
+        
+      - name: Package files
+        uses: actions/upload-artifact@v2
+        with:
+          name: YourName-CustomCharacter
+          path: YourName-CustomCharacter
+          
+          
+      
