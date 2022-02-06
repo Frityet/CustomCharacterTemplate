@@ -1,9 +1,8 @@
-name: Create Build
+name: build
 
 on:
   push:
     branches: [ master ]
-  # workflow_dispatch:
 
 jobs:
   build:
@@ -15,8 +14,8 @@ jobs:
       - name: Setup Lua with Luver
         uses: MunifTanjim/luver-action@v1.2.1
       - run: |
-            luver install lua 5.4.3
-            luver use 5.4.3
+            luver install lua 5.1
+            luver use 5.1
   
       - name: Package
         run: lua scripts/pkg.lua
